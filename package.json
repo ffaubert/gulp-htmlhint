@@ -1,6 +1,6 @@
 {
   "name": "@ffaubert/gulp-htmlhint",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "A plugin for Gulp",
   "keywords": [
     "gulpplugin"
@@ -30,7 +30,7 @@
     "vinyl": "^2.2.1"
   },
   "peerDependencies": {
-    "htmlhint": "^0.14.2"
+    "htmlhint": ">=0.14.2"
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
