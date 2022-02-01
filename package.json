@@ -1,19 +1,19 @@
 {
-  "name": "gulp-htmlhint",
-  "version": "4.0.1",
+  "name": "@ffaubert/gulp-htmlhint",
+  "version": "4.0.2",
   "description": "A plugin for Gulp",
   "keywords": [
     "gulpplugin"
   ],
-  "homepage": "https://github.com/bezoerb/gulp-htmlhint",
+  "homepage": "https://github.com/ffaubert/gulp-htmlhint",
   "bugs": {
-    "url": "https://github.com/bezoerb/gulp-htmlhint/issues"
+    "url": "https://github.com/ffaubert/gulp-htmlhint/issues"
   },
   "author": "Ben Zörb (https://github.com/bezoerb)",
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bezoerb/gulp-htmlhint.git"
+    "url": "git://github.com/ffaubert/gulp-htmlhint.git"
   },
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
@@ -23,12 +23,14 @@
     "ansi-colors": "^4.1.1",
     "beeper": "^2.0.0",
     "fancy-log": "^1.3.2",
-    "htmlhint": "^0.14.2",
     "plugin-error": "^1.0.1",
     "strip-ansi": "^6.0.0",
     "strip-json-comments": "^3.1.1",
     "through2": "^3.0.1",
     "vinyl": "^2.2.1"
+  },
+  "peerDependencies": {
+    "htmlhint": "^0.14.2"
   },
   "devDependencies": {
     "coveralls": "^3.1.0",
